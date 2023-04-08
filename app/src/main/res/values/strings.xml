@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">qwertyuiop</string>
+    <string name="music_title">Music Title</string>
+    <string name="sting_play">\'@sting/play\'</string>
+    <string name="string_next">\'@string/next\'</string>
+</resources>
