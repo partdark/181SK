@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity11">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Home To You - Sigrid"
+        android:textColor="#0C0C0C"
+        android:textSize="20dp"
+        android:gravity="center"/>
+    <ImageView
+        android:layout_width="391dp"
+        android:layout_height="439dp"
+        android:src="@drawable/home" />
+    <SeekBar
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekbar"
+        android:layout_marginVertical="12dp"
+        android:progress="50"/>
+
+    <LinearLayout
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button_bg"
+            android:contentDescription="'@string/previous'"
+            android:src="@drawable/baseline_skip_previous_24"
+            tools:ignore="HardcodedText" />
+
+        <ImageButton
+            android:id="@+id/play_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="12dp"
+            android:background="@drawable/button_bg"
+            android:contentDescription="@string/sting_play"
+            android:src="@drawable/baseline_play_arrow_24" />
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button_bg"
+            android:contentDescription="@string/string_next"
+            android:src="@drawable/baseline_skip_next_24" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

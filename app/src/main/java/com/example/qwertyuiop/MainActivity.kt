@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
         bleading.setOnClickListener(){
             val intent = Intent(this, MainActivity2::class.java)
             startActivity(intent)
-        } /*
+        }
         tunnel.setOnClickListener(){
             val intent = Intent(this, MainActivity3::class.java)
             startActivity(intent)
@@ -76,6 +76,6 @@ class MainActivity : AppCompatActivity() {
         girl.setOnClickListener(){
             val intent = Intent(this, MainActivity13::class.java)
             startActivity(intent)
-        } */
+        }
     }
 }
